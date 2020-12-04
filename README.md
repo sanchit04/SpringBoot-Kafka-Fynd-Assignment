@@ -63,7 +63,27 @@ It is basically a pipeline which capture the events happening on the Stripes pay
   
   ## ScreenShots of validation of Pipeline:
   
-  
+  - LOAD-GENERATOR:
+
+![load-charge updated](https://user-images.githubusercontent.com/37934048/101225797-6d443100-36b8-11eb-8d97-36aba7d3dd37.PNG)
+![load-charge succeeded](https://user-images.githubusercontent.com/37934048/101225793-6c130400-36b8-11eb-8e83-26847c250ddf.PNG)
+
+  - WEBHOOK-KAFKA-PRODUCER:
+
+![recordSent-Producer-Console](https://user-images.githubusercontent.com/37934048/101225855-9d8bcf80-36b8-11eb-837e-ba83faed3403.PNG)
+ 
+ - CONFLUENT-CONTROL-CENTER:
+ 
+![control-center-topics](https://user-images.githubusercontent.com/37934048/101225929-c7dd8d00-36b8-11eb-9546-762a438145cd.PNG) 
+![control-center-dataFlow](https://user-images.githubusercontent.com/37934048/101225925-c6ac6000-36b8-11eb-8e70-8b1401ccbe9c.PNG)
+
+- WEBHOOK-KAFKA-CONSUMER:
+
+![spring-Consumer](https://user-images.githubusercontent.com/37934048/101225980-f2c7e100-36b8-11eb-82e3-8c5547f622f5.PNG)
+
+- FILE-MERGER:
+
+![File-Merger](https://user-images.githubusercontent.com/37934048/101225972-f0fe1d80-36b8-11eb-8169-e050865d7459.PNG)
   
 
 
